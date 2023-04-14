@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <azure.functions.maven.plugin.version>1.22.0</azure.functions.maven.plugin.version>
         <azure.functions.java.library.version>3.0.0</azure.functions.java.library.version>
-        <functionAppName>azure-functions-sample</functionAppName>
+        <functionAppName>${FunctionApp}</functionAppName>
         <functionAppRegion>westus</functionAppRegion>
         <functionResourceGroup>java-functions-resource-group</functionResourceGroup>
         <functionServicePlan>java-functions-service-plan</functionServicePlan>
